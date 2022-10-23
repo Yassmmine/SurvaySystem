@@ -1,0 +1,57 @@
+C:\Users\user\source\repos\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\obj\Debug\net5.0\Infrasturcture.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\obj\Debug\net5.0\Infrasturcture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\obj\Debug\net5.0\Infrasturcture.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\obj\Debug\net5.0\Infrasturcture.AssemblyInfo.cs
+C:\Users\user\source\repos\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\obj\Debug\net5.0\Infrasturcture.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\bin\Debug\net5.0\Infrasturcture.deps.json
+C:\Users\user\source\repos\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\bin\Debug\net5.0\Infrasturcture.dll
+C:\Users\user\source\repos\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\bin\Debug\net5.0\ref\Infrasturcture.dll
+C:\Users\user\source\repos\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\bin\Debug\net5.0\Infrasturcture.pdb
+C:\Users\user\source\repos\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\bin\Debug\net5.0\Application.dll
+C:\Users\user\source\repos\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\bin\Debug\net5.0\DomainAplication.dll
+C:\Users\user\source\repos\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\bin\Debug\net5.0\Application.pdb
+C:\Users\user\source\repos\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\bin\Debug\net5.0\DomainAplication.pdb
+C:\Users\user\source\repos\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\bin\Debug\net5.0\Ar\Application.resources.dll
+C:\Users\user\source\repos\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\bin\Debug\net5.0\Ar\DomainAplication.resources.dll
+C:\Users\user\source\repos\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\obj\Debug\net5.0\Infrasturcture.csproj.CopyComplete
+C:\Users\user\source\repos\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\obj\Debug\net5.0\Infrasturcture.dll
+C:\Users\user\source\repos\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\obj\Debug\net5.0\ref\Infrasturcture.dll
+C:\Users\user\source\repos\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\obj\Debug\net5.0\Infrasturcture.pdb
+C:\Users\Admin\Desktop\New folder\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\bin\Debug\net5.0\Infrasturcture.deps.json
+C:\Users\Admin\Desktop\New folder\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\bin\Debug\net5.0\Infrasturcture.dll
+C:\Users\Admin\Desktop\New folder\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\bin\Debug\net5.0\ref\Infrasturcture.dll
+C:\Users\Admin\Desktop\New folder\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\bin\Debug\net5.0\Infrasturcture.pdb
+C:\Users\Admin\Desktop\New folder\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\bin\Debug\net5.0\Application.dll
+C:\Users\Admin\Desktop\New folder\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\bin\Debug\net5.0\DomainAplication.dll
+C:\Users\Admin\Desktop\New folder\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\bin\Debug\net5.0\Application.pdb
+C:\Users\Admin\Desktop\New folder\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\bin\Debug\net5.0\DomainAplication.pdb
+C:\Users\Admin\Desktop\New folder\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\bin\Debug\net5.0\Ar\Application.resources.dll
+C:\Users\Admin\Desktop\New folder\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\bin\Debug\net5.0\Ar\DomainAplication.resources.dll
+C:\Users\Admin\Desktop\New folder\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\obj\Debug\net5.0\Infrasturcture.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\New folder\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\obj\Debug\net5.0\Infrasturcture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\New folder\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\obj\Debug\net5.0\Infrasturcture.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\New folder\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\obj\Debug\net5.0\Infrasturcture.AssemblyInfo.cs
+C:\Users\Admin\Desktop\New folder\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\obj\Debug\net5.0\Infrasturcture.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\New folder\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\obj\Debug\net5.0\Infrasturcture.csproj.CopyComplete
+C:\Users\Admin\Desktop\New folder\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\obj\Debug\net5.0\Infrasturcture.dll
+C:\Users\Admin\Desktop\New folder\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\obj\Debug\net5.0\ref\Infrasturcture.dll
+C:\Users\Admin\Desktop\New folder\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\obj\Debug\net5.0\Infrasturcture.pdb
+C:\Users\user\Desktop\New folder\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\bin\Debug\net5.0\Infrasturcture.deps.json
+C:\Users\user\Desktop\New folder\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\bin\Debug\net5.0\Infrasturcture.dll
+C:\Users\user\Desktop\New folder\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\bin\Debug\net5.0\ref\Infrasturcture.dll
+C:\Users\user\Desktop\New folder\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\bin\Debug\net5.0\Infrasturcture.pdb
+C:\Users\user\Desktop\New folder\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\bin\Debug\net5.0\Application.dll
+C:\Users\user\Desktop\New folder\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\bin\Debug\net5.0\DomainAplication.dll
+C:\Users\user\Desktop\New folder\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\bin\Debug\net5.0\Application.pdb
+C:\Users\user\Desktop\New folder\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\bin\Debug\net5.0\DomainAplication.pdb
+C:\Users\user\Desktop\New folder\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\bin\Debug\net5.0\Ar\Application.resources.dll
+C:\Users\user\Desktop\New folder\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\bin\Debug\net5.0\Ar\DomainAplication.resources.dll
+C:\Users\user\Desktop\New folder\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\obj\Debug\net5.0\Infrasturcture.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\New folder\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\obj\Debug\net5.0\Infrasturcture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\New folder\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\obj\Debug\net5.0\Infrasturcture.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\New folder\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\obj\Debug\net5.0\Infrasturcture.AssemblyInfo.cs
+C:\Users\user\Desktop\New folder\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\obj\Debug\net5.0\Infrasturcture.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\New folder\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\obj\Debug\net5.0\Infrasturcture.csproj.CopyComplete
+C:\Users\user\Desktop\New folder\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\obj\Debug\net5.0\Infrasturcture.dll
+C:\Users\user\Desktop\New folder\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\obj\Debug\net5.0\ref\Infrasturcture.dll
+C:\Users\user\Desktop\New folder\SurvaySystem\SurvaySystem\InfrastructureApplication\Infrasturcture\obj\Debug\net5.0\Infrasturcture.pdb

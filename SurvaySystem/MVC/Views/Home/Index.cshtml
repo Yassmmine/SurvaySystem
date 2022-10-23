@@ -1,0 +1,315 @@
+﻿@{
+    ViewData["Title"] = "Key Performance Indicator";
+}
+@{
+
+    var deparmnet_data = new List<SelectListItem>()
+{
+        new SelectListItem() {
+            Text = "department1",
+            Value = "1"
+        },
+        new SelectListItem() {
+            Text = "department2",
+            Value = "2"
+        },
+        new SelectListItem() {
+            Text = "department3",
+            Value = "3"
+        }
+    };
+}
+
+
+@addTagHelper *, Kendo.Mvc
+
+<div class="configurator">
+    <h1>Key Performance Indicator</h1>
+    <div class="box-col my-3">
+        <h6>Choose Department:</h6>
+        <kendo-dropdownlist name="dropDownList"
+                            on-change="departmentChange"
+                            on-select="selectedDep"
+                            option-label="All"
+                            bind-to="deparmnet_data"
+                            datatextfield="Text"
+                            datavaluefield="Value">
+        </kendo-dropdownlist>
+    </div>
+
+</div>
+
+<kendo-grid name="Grid" navigatable="true">
+    <datasource page-size="20"
+                server-operation="false"
+                batch="true"
+                on-error="error_handler">
+
+        <schema data="Data" total="Total">
+            <model id="Id">
+                <fields>
+                    <field name="Id" type="number" editable="false"></field>
+                    <field name="Description" type="string">
+                        <validation required="true" />
+                    </field>
+                    <field name="MeasureUnit" editable="false" default-value="false" type="boolean"></field>
+                    <field name="TargetValue" type="number">
+                        <validation required="true" />
+                        <validation min="1" />
+                    </field>
+                </fields>
+            </model>
+        </schema>
+        <transport>
+            <read url="@Url.Action("GetDataSource", "Home")" />
+            <update type="PUT" url="@Url.Action("Update", "Home")" />
+            <create type="POST" url="@Url.Action("Create", "Home")" />
+            <destroy type="DELETE" url="@Url.Action("Delete", "Home")" />
+
+        </transport>
+        @*<groups>
+            <group field="MeasureUnit" typeof="boolean">
+                <aggregates>
+                    <aggregate field="TargetValue" aggregate="sum" />
+                </aggregates>
+            </group>
+        </groups>
+        <aggregates>
+            <aggregate field="TargetValue" aggregate="sum" />
+        </aggregates>*@
+       
+
+    </datasource>
+    <columns>
+        <column field="Id" width="150" title="Id" />
+        <column field="Description" title="Description" width="150" />
+        <column field="MeasureUnit" title="Measure Unit" width="150"
+        
+           template="#=MeasureUnitTemplate(data)#"
+          min-screen-width="200" />
+        <column field="TargetValue" title="Target Value" footer-template="#=TotalAmount()#"
+                width="150" min-screen-width="800" />
+
+
+
+        <column width="160">
+            <commands>
+                <column-command text="Delete" name="destroy"></column-command>
+            </commands>
+        </column>
+    </columns>
+
+    <toolbar>
+        <toolbar-button name="create"></toolbar-button>
+        <toolbar-button name="save"></toolbar-button>
+    </toolbar>
+
+    <editable mode="incell" />
+    <pageable enabled="true" />
+    <sortable enabled="false" />
+    <groupable enabled="false" />
+    <filterable enabled="false" />
+    <scrollable enabled="false" />
+
+</kendo-grid>
+@section Scripts{
+
+
+    <script type="text/javascript">
+
+        //------------------------------------department [changes and upate model in case add]------
+        //function getData(data) {
+        //    console.log("data create ", data);
+        //    var models = data.models;
+        //    var deptId = $('#dropDownList').data('kendoDropDownList').value();
+        //    for (var idx = 0; idx < models.length; idx++) {
+        //        models[idx].DepartmentId = deptId;
+        //    }
+
+        //}
+
+      
+        function selectedDep (e) {
+            console.log(e.dataItem.Value,'selected')
+            if (!e.dataItem.Value) {
+                e.preventDefault();
+            }
+        };
+        function departmentChange() {
+            var value = this.value(),
+                grid = $("#Grid").data("kendoGrid");
+            if (value) {
+                grid.dataSource.filter({ field: "DepartmentId", operator: "eq", value: parseInt(value) });
+
+            } else {
+                grid.dataSource.filter({});
+            }
+
+        }
+
+    </script>
+
+    <script type="text/javascript">
+@*//--------------------Template Custom ---------------------------//*@
+  
+
+        function TotalAmount() {
+            var data = $('#Grid').data('kendoGrid').dataSource.data();
+            var sum = data.reduce((a, b) => a + (b["TargetValue"] || 0), 0);
+            return sum
+        }
+
+
+        function MeasureUnitTemplate(data) {
+           
+            let randomId = Date.now() + Math.floor(Math.random() * 10);
+            if (data.MeasureUnit == true) {
+                return `<span>
+                                             <label >
+                                                    <input type='radio' class='k-radio k-radio-md' name="${data.Id == 0 ? randomId : data.Id}"   onclick='setDataItem(this);' checked=checked />
+                                                         number
+                                             </label>
+                                                    </br>
+                                             <label  >
+                                                        <input type='radio' class='k-radio k-radio-md'  name="${data.Id == 0 ? randomId : data.Id}"    onclick='setDataItem(this);';  />
+                                                       percentage
+                                             </label>
+                                              </br>
+                                        </span>`
+            } else {
+                return `<span>
+                                          <label>
+                                               <input type='radio' class='k-radio k-radio-md' name="${data.Id == 0 ? randomId : data.Id}"   onclick='setDataItem(this);'  />
+                                                         number
+                                          </label>
+                                                    </br>
+                                          <label>
+                                                 <input type='radio' class='k-radio k-radio-md' name="${data.Id == 0 ? randomId : data.Id}"   onclick='setDataItem(this);' checked=checked />
+                                                     percentage
+                                          </label>
+                                                    </br>
+                                           </span>`;
+            }
+        }
+
+        function setDataItem(item) {
+            var grid = $("#Grid").data("kendoGrid");
+            var row = $(item).closest("tr");
+            var dataItem = grid.dataItem(row);
+            console.log("before addeddataItem", grid.dataSource.getByUid(dataItem.uid).MeasureUnit);
+            var messureText = $(item)[0].labels[0].innerText;
+            console.log("row", row);
+
+            if (messureText.trim() == 'percentage') {
+                grid.dataSource.getByUid(dataItem.uid).MeasureUnit = false;
+
+                //templateCell(item,false);
+            } else {
+                grid.dataSource.getByUid(dataItem.uid).MeasureUnit = true;
+                //templateCell(item, true);
+
+            }
+            console.log("after addeddataItem", grid.dataSource.getByUid(dataItem.uid).MeasureUnit);
+       //     return `<span class='k-dirty'></span>`;
+        };
+
+
+        function templateCell(data) {
+            var template = "";
+            console.log('hiiiiiii');
+            if (data.dirtyFields) {
+                template += "<span class='k-dirty'></span>"
+              //  data.dirtyFields.MeasureUnit = value;
+            }
+            return template;
+        }
+
+
+        
+    </script>
+
+    <script type="text/javascript">
+
+        //------------------------------------configure gride and register validation --------
+
+      
+        function error_handler(e) {
+            if (e.errors) {
+                var message = "Errors:\n";
+                $.each(e.errors, function (key, value) {
+                    if ('errors' in value) {
+                        $.each(value.errors, function () {
+                            message += this + "\n";
+                        });
+                    }
+                });
+                alert(message);
+            }
+        }
+
+        function setDepartmentValue(input){
+            var row = input.closest("tr");
+            var grid = row.closest("[data-role=grid]").data("kendoGrid");
+            var dataItem = grid.dataItem(row);
+            if (!grid.dataSource.getByUid(dataItem.uid).DepartmentId)
+                 grid.dataSource.getByUid(dataItem.uid).DepartmentId = $('#dropDownList').data('kendoDropDownList').value();
+            console.log('dept ',grid.dataSource.getByUid(dataItem.uid).DepartmentId);
+        }
+        //register custom validation rules
+        $(document).ready(function () {
+            console.log('reload')
+            $('#dropDownList').data('kendoDropDownList').value(1);
+            setTimeout(() => {
+                console.log('hhhhh');
+                $("#Grid").data("kendoGrid").dataSource.filter({ field: "DepartmentId", operator: "eq", value: 1 });
+            }, 500);
+            $.extend(true, kendo.ui.validator, {
+                rules: { // custom rules
+                    targetvaluevalidation: function (input) {
+                        if (input.is("[name=TargetValue]")){
+                            var row = input.closest("tr");
+                            var grid = row.closest("[data-role=grid]").data("kendoGrid");
+                            var measureValue = grid.dataItem(row).MeasureUnit;
+
+                            if (measureValue == false) {
+                                input.attr("data-targetvaluevalidation-msg", "Target Value  should be less than 100");
+                                return input.val() < 100;
+                            }
+                        }
+                        return true;
+                    },
+                    descriptionvalidation: function (input) {
+                        //
+                        setDepartmentValue(input);
+                        if (input.is("[name=Description]") && input.val()) {
+                            input.attr("data-descriptionvalidation-msg", "Not Accept Special Characters");
+                            return /^((\s*)[a-zA-Z]){2,}\d*((\s*)[a-zA-Z0-9](\s*))*\d*$/.test(input.val());;
+                        }
+                        return true;
+                    },
+
+                }
+
+            });
+        });
+
+    </script>
+}
+
+<style>
+
+    .k-grid-content td {
+        position: relative;
+    }
+
+    .fieldlist {
+        margin: 0 0 -1em;
+        padding: 0;
+    }
+
+        .fieldlist li {
+            list-style: none;
+            padding-bottom: 1em;
+        }
+</style>
+

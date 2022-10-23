@@ -1,0 +1,51 @@
+C:\Users\user\source\repos\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\bin\Debug\net5.0\DomainAplication.deps.json
+C:\Users\user\source\repos\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\bin\Debug\net5.0\DomainAplication.dll
+C:\Users\user\source\repos\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\bin\Debug\net5.0\ref\DomainAplication.dll
+C:\Users\user\source\repos\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\bin\Debug\net5.0\DomainAplication.pdb
+C:\Users\user\source\repos\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\bin\Debug\net5.0\Ar\DomainAplication.resources.dll
+C:\Users\user\source\repos\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\obj\Debug\net5.0\DomainAplication.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\obj\Debug\net5.0\DomainAplication.Resources.FieldResources.resources
+C:\Users\user\source\repos\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\obj\Debug\net5.0\DomainAplication.Resources.FieldResources.Ar.resources
+C:\Users\user\source\repos\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\obj\Debug\net5.0\DomainAplication.csproj.GenerateResource.cache
+C:\Users\user\source\repos\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\obj\Debug\net5.0\DomainAplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\obj\Debug\net5.0\DomainAplication.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\obj\Debug\net5.0\DomainAplication.AssemblyInfo.cs
+C:\Users\user\source\repos\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\obj\Debug\net5.0\DomainAplication.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\obj\Debug\net5.0\Ar\DomainAplication.resources.dll
+C:\Users\user\source\repos\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\obj\Debug\net5.0\DomainAplication.dll
+C:\Users\user\source\repos\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\obj\Debug\net5.0\ref\DomainAplication.dll
+C:\Users\user\source\repos\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\obj\Debug\net5.0\DomainAplication.pdb
+C:\Users\Admin\Desktop\New folder\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\bin\Debug\net5.0\DomainAplication.deps.json
+C:\Users\Admin\Desktop\New folder\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\bin\Debug\net5.0\DomainAplication.dll
+C:\Users\Admin\Desktop\New folder\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\bin\Debug\net5.0\ref\DomainAplication.dll
+C:\Users\Admin\Desktop\New folder\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\bin\Debug\net5.0\DomainAplication.pdb
+C:\Users\Admin\Desktop\New folder\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\bin\Debug\net5.0\Ar\DomainAplication.resources.dll
+C:\Users\Admin\Desktop\New folder\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\obj\Debug\net5.0\DomainAplication.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\New folder\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\obj\Debug\net5.0\DomainAplication.Resources.FieldResources.resources
+C:\Users\Admin\Desktop\New folder\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\obj\Debug\net5.0\DomainAplication.Resources.FieldResources.Ar.resources
+C:\Users\Admin\Desktop\New folder\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\obj\Debug\net5.0\DomainAplication.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\New folder\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\obj\Debug\net5.0\DomainAplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\New folder\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\obj\Debug\net5.0\DomainAplication.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\New folder\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\obj\Debug\net5.0\DomainAplication.AssemblyInfo.cs
+C:\Users\Admin\Desktop\New folder\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\obj\Debug\net5.0\DomainAplication.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\New folder\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\obj\Debug\net5.0\Ar\DomainAplication.resources.dll
+C:\Users\Admin\Desktop\New folder\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\obj\Debug\net5.0\DomainAplication.dll
+C:\Users\Admin\Desktop\New folder\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\obj\Debug\net5.0\ref\DomainAplication.dll
+C:\Users\Admin\Desktop\New folder\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\obj\Debug\net5.0\DomainAplication.pdb
+C:\Users\user\Desktop\New folder\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\bin\Debug\net5.0\DomainAplication.deps.json
+C:\Users\user\Desktop\New folder\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\bin\Debug\net5.0\DomainAplication.dll
+C:\Users\user\Desktop\New folder\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\bin\Debug\net5.0\ref\DomainAplication.dll
+C:\Users\user\Desktop\New folder\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\bin\Debug\net5.0\DomainAplication.pdb
+C:\Users\user\Desktop\New folder\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\bin\Debug\net5.0\Ar\DomainAplication.resources.dll
+C:\Users\user\Desktop\New folder\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\obj\Debug\net5.0\DomainAplication.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\New folder\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\obj\Debug\net5.0\DomainAplication.Resources.FieldResources.resources
+C:\Users\user\Desktop\New folder\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\obj\Debug\net5.0\DomainAplication.Resources.FieldResources.Ar.resources
+C:\Users\user\Desktop\New folder\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\obj\Debug\net5.0\DomainAplication.csproj.GenerateResource.cache
+C:\Users\user\Desktop\New folder\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\obj\Debug\net5.0\DomainAplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\New folder\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\obj\Debug\net5.0\DomainAplication.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\New folder\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\obj\Debug\net5.0\DomainAplication.AssemblyInfo.cs
+C:\Users\user\Desktop\New folder\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\obj\Debug\net5.0\DomainAplication.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\New folder\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\obj\Debug\net5.0\Ar\DomainAplication.resources.dll
+C:\Users\user\Desktop\New folder\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\obj\Debug\net5.0\DomainAplication.dll
+C:\Users\user\Desktop\New folder\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\obj\Debug\net5.0\ref\DomainAplication.dll
+C:\Users\user\Desktop\New folder\SurvaySystem\SurvaySystem\DomainAplication\DomainAplication\obj\Debug\net5.0\DomainAplication.pdb
